@@ -34,7 +34,7 @@ class DirectoryMenu(object):
 
     def update_text(self):
         self.current_path.set("Musisz wybrać miejsce zapisu swojego filmu."
-                              "\nKliknij przycisk po niżej aby wybrać folder"
+                              "\nKliknij przycisk poniżej aby wybrać folder"
                               "\nAktualna scieżka:\n"
                               f"{self.path if self.path else 'Nie podano'}")
 
@@ -43,7 +43,7 @@ class DirectoryMenu(object):
         self.update_text()
 
     def create_menu(self):
-        self.window.title("Wybieranie miejscu zapisu")
+        self.window.title("Wybieranie miejsca zapisu")
         self.background_label.place(x="0", y="0")
         self.text.place(x="0", y="170", width="500", height="150")
         self.path_button.place(x="15", y="400", width="230", height="50")

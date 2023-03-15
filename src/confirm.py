@@ -50,7 +50,7 @@ class Confirm(object):
 
         download_thread: Thread = Thread(target=self.download_video)
         download_thread.start()
-        self.status_display.set("Pobieranie czekaj...")
+        self.status_display.set("Pobieranie, czekaj...")
 
     def download_video(self):
         downloader = self.video.streams.get_highest_resolution()
