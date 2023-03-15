@@ -1,7 +1,7 @@
 from tkinter import Button, StringVar, Label, PhotoImage, Tk
 from tkinter import filedialog, messagebox
-from getlink import GetLinkMenu
-import settings
+from src.getlink import GetLinkMenu
+from src import settings
 
 
 class DirectoryMenu(object):

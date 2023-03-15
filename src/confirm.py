@@ -1,7 +1,7 @@
 from tkinter import Button, Label, PhotoImage, Tk, StringVar
 from pytube import YouTube
 from threading import Thread
-import settings
+from src import settings
 from typing import List
 
 

@@ -1,6 +1,6 @@
 from tkinter import Button, Label, PhotoImage, Tk
-import settings
-from directorymenu import DirectoryMenu
+from src import settings
+from src.directorymenu import DirectoryMenu
 
 
 class MainMenu(object):

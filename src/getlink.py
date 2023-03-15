@@ -1,8 +1,8 @@
 from tkinter import Button, Label, PhotoImage, Tk, messagebox, Entry
 from pytube import YouTube
 from pytube.exceptions import RegexMatchError
-from confirm import Confirm
-import settings
+from src.confirm import Confirm
+from src import settings
 
 
 class GetLinkMenu(object):
@@ -16,7 +16,7 @@ class GetLinkMenu(object):
         self.background_label: Label = Label(self.window, image=self.background_image)
 
         self.input_box: Entry = Entry(font=settings.font, bg=settings.bg_text)
-        self.text: Label = Label(self.window,  text="Podaj link do filmu YouTube:", font=settings.font)
+        self.text: Label = Label(self.window, text="Podaj link do filmu YouTube:", font=settings.font)
         self.confirm_button: Button = Button(self.window, text="Zatwierdź", font=settings.font, command=self.get_link)
 
         self.create_menu()
