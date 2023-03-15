@@ -9,12 +9,12 @@ This project uses a python module pytube.
 First you need to install all requirements to run this code
 > `pip install -r requirements.txt` 
 
-When you have requirements installed you have to just run main file and thats it!
+When you have requirements installed you have to just run `main.py` file and thats it!
 
 
 # Some bad photos
 
-![Where to save](https://i.imgur.com/LeOLKot.png)
+![Where to save](https://i.imgur.com/yCzqpIo.png)
 
 
-![Downloading](https://i.imgur.com/CrU0nTL.png)
+![Downloading](https://i.imgur.com/3WUTn4N.png)
